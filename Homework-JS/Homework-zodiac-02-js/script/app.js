@@ -2,31 +2,30 @@ let birthYear = prompt("Insert your birth year:");
 
 let chineseZodiac = (birthYear - 4) % 12;
 
-if(chineseZodiac === 0){
+if (chineseZodiac === 0) {
     console.log("You're a Rat");
-} else if(chineseZodiac === 1){
+} else if (chineseZodiac === 1) {
     console.log("You're an Ox");
-} else if(chineseZodiac === 2){
+} else if (chineseZodiac === 2) {
     console.log("You're a Tiger");
-} else if(chineseZodiac === 3){
+} else if (chineseZodiac === 3) {
     console.log("You're a Rabbit");
-} else if(chineseZodiac === 4){
+} else if (chineseZodiac === 4) {
     console.log("You're a Dragon");
-} else if(chineseZodiac === 5){
+} else if (chineseZodiac === 5) {
     console.log("You're a Snake");
-} else if(chineseZodiac === 6){
+} else if (chineseZodiac === 6) {
     console.log("You're a Horse");
-} else if(chineseZodiac === 7){
+} else if (chineseZodiac === 7) {
     console.log("You're a Goat");
-} else if(chineseZodiac === 8){
+} else if (chineseZodiac === 8) {
     console.log("You're a Monkey");
-} else if(chineseZodiac === 9){
+} else if (chineseZodiac === 9) {
     console.log("You're a Rooster");
-} else if(chineseZodiac === 10){
+} else if (chineseZodiac === 10) {
     console.log("You're a Dog");
-} else if(chineseZodiac === 11){
+} else if (chineseZodiac === 11) {
     console.log("You're a Pig");
-} 
-else{
+} else {
     console.log("Insert correct birth year!");
 }
